@@ -28,6 +28,8 @@ Leads Extractor is a web application built with Flask that allows you to scrape 
     ```bash
     python app.py
     ```
+## Screenshot
+![Leads Extractor Screenshot](Dashboard.png)
 
 ## Usage
 
