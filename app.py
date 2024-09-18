@@ -131,7 +131,7 @@ def scrape_google_maps(query, location):
     chrome_options.add_argument('--disable-dev-shm-usage')  # Overcome limited resource problems in headless mode
 
     # Set up the Chrome driver
-    chrome_service = Service(executable_path='chromedriver-win64/chromedriver.exe')
+    chrome_service = Service(executable_path='Chromedriver/chromedriver.exe')
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
     url = f'https://www.google.com/maps/search/{query}+in+{location}'
